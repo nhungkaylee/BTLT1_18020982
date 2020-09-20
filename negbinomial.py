@@ -37,7 +37,7 @@ def sumProb(N,p,r):
     for i in range (r, N + 1):
         result = result + prob(i,p,r)
     return result
-# print(sumProb(50,0.6,10))
+# print(sumProb(100,0.3,2))
 
 def approxEntropy(N,p,r):
     '''
